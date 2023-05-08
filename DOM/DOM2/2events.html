@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Events Page</title>
+  </head>
+
+  <body>
+    <!--Events-->
+    On blur:<input type="text" onblur="eventTriggered(this)" /> <br />
+    <br />
+    On focus:<input type="text" onfocus="eventTriggered(this)" /> <br />
+    <br />
+    On select:<input type="text" onselect="eventTriggered(this)" /> <br />
+    <br />
+    On KeyDown:<input type="text" onkeydown="eventTriggeredKeyDown(this)" />
+    <br />
+    <br />
+    On KeyUp:<input type="text" onkeyup="eventTriggeredKeyUp(this)" /> <br />
+    <br />
+    On click:<input type="text" onclick="eventTriggeredKeyDown(this)" /> <br />
+    <br />
+    <button type="button" onclick="eventButton()">Click Me</button>
+  </body>
+  <script src="2events.js"></script>
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CRUD with Mock API</title>
+    <link rel="stylesheet" href="1mock-api.css" />
+  </head>
+  <body>
+    <section class="container">
+      <input
+        type="text"
+        class="add-user-name"
+        placeholder="Enter Username"
+      /><br /><br />
+      <input
+        type="text"
+        class="add-user-avatar"
+        placeholder="Enter Avatar url"
+      /><br /><br />
+      <button onclick="adduser()">Add User</button>
+    </section>
+    <!-- To collect the all your data -->
+    <div class="user-list"></div>
+
+    <script src="1mock-api.js"></script>
+  </body>
+</html>
